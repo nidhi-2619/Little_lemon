@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "little-lemon"
+version = "v1"
+description = "Restaurant reservation application"
+authors = ["nidhi-2619 <91557785+nidhi-2619@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.7"
+mysqlclient = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
