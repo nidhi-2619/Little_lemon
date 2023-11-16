@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         {% title%}
-
+        { title }
         {% endtitle%}
     </title>
 </head>
 <body>
     <nav class="">
-
+<ul>
+    <li>HOME</li>
+    <li>MENU</li>
+    <li>ABOUT US</li>
+    <li>BOOK</li>
+    <li>EVENTS</li>
+    <li>CONTACTS</li>
+</ul>
 
     </nav>
     {% block content %}
@@ -21,4 +28,5 @@
     {% endblock %}
 
 </body>
+
 </html>
